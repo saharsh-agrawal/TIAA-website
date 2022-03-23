@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+html {
+  background-color: #fafafa;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.site-content {
+  display: block;
+}
+
+#primary {
+  padding-left: 0%;
+  padding-right: 0%;
+  margin: 5%;
+}
+
+#main {
+  display: block;
+}
+
+.entry-header {
+  margin-bottom: 1em;
+  color: #2e2b2b;
+}
+
+h1 {
+  font-weight: 250;
+}
+
+@media only screen and (max-width: 600px) {
+  .entry-header {
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+  }
+}
+
+.entry-content {
+  word-wrap: break-word;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;
+    align-items: center;*/
+}
+
+.centre {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 120%;
+  color: #2e2b2b;
+  font-weight: lighter;
+}
+
+.inputs {
+  padding: 1%;
+  font-size: 100%;
+  font-weight: lighter;
+  color: #2e2b2b;
+  border: 0mm;
+  width: 60vw;
+  height: 40px;
+  background-color: #f3f1f1;
+  border-radius: 0%;
+  border-color: #d3cdcd;
+}
+
+.textarea {
+  font-size: large;
+  font-weight: lighter;
+  color: #2e2b2b;
+  width: 60vw;
+  background-color: #f3f1f1;
+  position: relative;
+  border-color: #d3cdcd;
+  border-radius: 0%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.button {
+  width: 60vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.submit {
+  width: auto;
+  padding-left:20px;
+  padding-right:20px;
+  height: 6.5vh;
+  font-size: large;
+  background-color: #2e2b2b;
+  border-color: #2e2b2b;
+  color: #fafafa;
+  font-weight: 100;
+}
