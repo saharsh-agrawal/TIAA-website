@@ -67,6 +67,41 @@
             
 		</style>
 		
+		<!-- Preloader -->
+        <link rel="stylesheet" href="preloader.css" />
+        <div id="preloaderWrapper">
+          <div class="container-fluid preloader" id="preloader">
+            <img class="tiaa" src="logo.png" alt="logo" />
+            <h2>Please Wait...</h2>
+          </div>
+        </div>
+        <script>
+          const preloaderWrapperElement=document.getElementById("preloaderWrapper");
+          window.addEventListener("load", () => {
+            preloaderWrapperElement.style.display = "none";
+          });
+        </script>
+		
+		<!--cover-->
+		<link rel="stylesheet" href="cover.css"/>
+		<script>
+		   function uncover(){
+                console.log("Hello");
+                const targetDiv = document.getElementById("cover-container");
+                targetDiv.style.display = "none";
+            };
+		</script>
+        <div class="cover-container w-100 h-100 mx-auto flex-column text-center bg-light" id="cover-container">
+          <img src="img/cover.jpg">
+          <main class="px-3">
+            <h1>The International Artist Agency</h1>
+            <p class="lead">Click to Enter the World of Fantasy</p>
+            <p class="lead">
+              <button class="btn btn-lg btn-secondary fw-bold border-grey bg-black text-white" onclick="uncover();">Unlock</button>
+            </p>
+          </main>
+        </div>
+		
 	</head>
 	
 	<body>
@@ -80,37 +115,20 @@
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/1.png" class="bd-placeholder-img" width="100%" height="100%">
-                    <div class="container">
-                        <div class="carousel-caption text-start">
-                            <h1>Example headline.</h1>
-                            <p>Some representative placeholder content for the first slide of the carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                        </div>
-                    </div>
+                    <img src="img/img1.jpg" class="bd-placeholder-img" height="100%">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/2.png" class="bd-placeholder-img" width="100%" height="100%">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Some representative placeholder content for the second slide of the carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                        </div>
-                    </div>
+                    <img src="img/img2.jpg" class="bd-placeholder-img" height="100%">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/3.png" class="bd-placeholder-img" width="100%" height="100%">
-                    <div class="container">
-                        <div class="carousel-caption text-end">
-                            <h1>One more for good measure.</h1>
-                            <p>Some representative placeholder content for the third slide of this carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                        </div>
-                    </div>
+                    <img src="img/img3.jpg" class="bd-placeholder-img" height="100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img4.jpg" class="bd-placeholder-img" height="100%">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -125,7 +143,7 @@
         
 		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
             <div class="bg-light me-md-3 shadow-sm mx-auto" style="height: 400px;">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lHjPHKVAr_A?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lHjPHKVAr_A?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
             </div>
             <br><br>
             <div class="bg-light me-md-3 shadow-sm mx-auto" style="height: 400px;">

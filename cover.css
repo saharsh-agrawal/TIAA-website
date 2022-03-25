@@ -1,0 +1,16 @@
+.cover-container {
+    z-index:11;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    position: fixed;
+    overflow:hidden;
+}
+.cover-container img{
+    height:100%;
+}
+.cover-container main{
+	left: 50%;
+    top: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
