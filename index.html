@@ -84,15 +84,9 @@
 		
 		<!--cover-->
 		<link rel="stylesheet" href="cover.css"/>
-		<script>
-		   function uncover(){
-                console.log("Hello");
-                const targetDiv = document.getElementById("cover-container");
-                targetDiv.style.display = "none";
-            };
-		</script>
+		<script src="cover.js"></script>
         <div class="cover-container w-100 h-100 mx-auto flex-column text-center bg-light" id="cover-container">
-          <img src="img/cover.jpg">
+          <img src="img/cover.jpg" id="bg">
           <main class="px-3">
             <h1>The International Artist Agency</h1>
             <p class="lead">Click to Enter the World of Fantasy</p>
@@ -101,7 +95,8 @@
             </p>
           </main>
         </div>
-		
+        <img src="img/joker.png" id="joker">
+		<img src="img/tent.png" id="tent">
 	</head>
 	
 	<body>
