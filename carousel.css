@@ -3,11 +3,10 @@
 
 /* Carousel base class */
 .carousel {
-  width: 90vw;
-  margin: 0vw 5vw;
+  width:90vw;
+  margin:0vw 5vw;
   margin-bottom: 4rem;
 }
-
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
