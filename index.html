@@ -52,11 +52,7 @@
 		<link href="carousel.css" rel="stylesheet">
 		
 		<style>
-		    /*
-             * Extra utilities
-             */
-            
-            .flex-equal > * {
+		    .flex-equal > * {
               flex: 1;
             }
             @media (min-width: 768px) {
@@ -64,7 +60,6 @@
                 flex: 1;
               }
             }
-            
 		</style>
 		
 		<!-- Preloader -->
@@ -97,6 +92,25 @@
         </div>
         <img src="img/joker.png" id="joker">
 		<img src="img/tent.png" id="tent">
+		
+		<style>
+            .row>* {
+                padding-bottom: calc(var(--bs-gutter-x) * .5);
+            }
+            iframe{
+                width: 90vw;
+                height: 50.625vw;
+                margin:0vh 5vw;
+            }
+            @media(min-width:768px){
+                iframe{
+                    width: 80vw;
+                    height: 45vw;
+                    margin:0vh 10vw;
+                }
+            }
+		</style>
+		
 	</head>
 	
 	<body>
@@ -136,9 +150,9 @@
             </button>
         </div>
         
-		<iframe src="https://www.youtube.com/embed/lHjPHKVAr_A?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 0vh 5vw;width: 90vw;height: 50.625vw;"></iframe>
+		<iframe src="https://www.youtube.com/embed/lHjPHKVAr_A?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
-        <div class="px-4 py-5 my-5 text-center">
+        <div class="px-4 py-5 text-center">
             <img class="d-block mx-auto mb-4" src="logo.png" alt="" width="200" height="200">
             <h1 class="display-5 fw-bold">The International Artist Agency</h1>
             <div class="col-lg-6 mx-auto">
@@ -153,32 +167,26 @@
          <div class="row" style="padding: 0px 20px;">
           <div class="col-md-4">
             <div class="thumbnail">
-              <a href="img/1.png">
                 <img src="img/1.png" alt="Lights" style="width:100%">
-                <div class="caption">
+                <!--<div class="caption">
                   <p>Lorem ipsum...</p>
-                </div>
-              </a>
+                </div>-->
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail">
-              <a href="img/2.png">
                 <img src="img/2.png" alt="Nature" style="width:100%">
-                <div class="caption">
+                <!--<div class="caption">
                   <p>Lorem ipsum...</p>
-                </div>
-              </a>
+                </div>-->
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail">
-              <a href="img/3.png">
                 <img src="img/3.png" alt="Fjords" style="width:100%">
-                <div class="caption">
+                <!--<div class="caption">
                   <p>Lorem ipsum...</p>
-                </div>
-              </a>
+                </div>-->
             </div>
           </div>
         </div>
