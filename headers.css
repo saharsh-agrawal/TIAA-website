@@ -26,90 +26,41 @@
     display:none;
 }
 
-.container1{
-  display:flex;
-  justify-content: center;
+.container{
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  }
+  .nav-item{
+      
+    
+    display: inline-block;
+    
+    border: 2px solid #0f0;
+    filter: hue-rotate(80deg);
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+   
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+  .nav-item a{
+       color: #000;
+  }
+  .nav-item a:hover{
+    transition-delay: 1.5s;
+    
+    box-shadow: 0 0 10px #0f0,
+                0 0 20px #0f0,
+                0 0 40px #0f0,
+                0 0 80px #0f0,
+                0 0 160px #0f0;
+  
+  }
  
-  flex-wrap: wrap;
-}
-
-.container1 a{
-  position: relative;
-  display: inline-block;
-  padding: 15px 30px;
-  border: 2px solid #0f0;
-  margin: 40px;
-  text-transform: uppercase;
-  font-weight: 600;
-  text-decoration: none;
-  letter-spacing: 2px;
-  color: #000;
-  -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
-  transition: 0.5s;
-  transition-delay: 0s;
-}
-
-.container1 a:hover{
-  transition-delay: 1.5s;
-  color: #fff;
-  box-shadow: 0 0 10px #0f0,
-              0 0 20px #0f0,
-              0 0 40px #0f0,
-              0 0 80px #0f0,
-              0 0 160px #0f0;
-
-}
-.container1 a span{
-  position: relative;
-  z-index: 100;
-}
-.container a:nth-child(2){
-  filter: hue-rotate(80deg);
-
-}
-.container1 a::before{
-  content: '';
-  position: absolute;
-  left: -20px;
-  top:50%;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 2px;
-  background: #0f0;
-  box-shadow: 5px -8px 0 #0f0, 5px 8px 0 #0f0;
-  transition: width 0.5s, left 0.5s, height 0.5s,
-  box-shadow 0.5s;
-  transition-delay: 1s,0.5s,0s,0s;
-
-}
-.container1 a:hover::before{
-  width: 60%;
-  height: 100%;
-  left: -2px;
-  box-shadow: 5px 0 0 #0f0, 5px 0 0 #0f0;
-  transition-delay: 0s,0.5s,1s,1s;
-
-}
-.container1 a::after{
-  content: '';
-  position: absolute;
-  right: -20px;
-  top:50%;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 2px;
-  background: #0f0;
-  box-shadow: -5px -8px 0 #0f0, -5px 8px 0 #0f0;
-  transition: width 0.5s, left 0.5s, height 0.5s,
-  box-shadow 0.5s;
-  transition-delay: 1s,0.5s,0s,0s;
-
-}
-.container1 a:hover::after{
-  width: 60%;
-  height: 100%;
-  right: -2px;
-  box-shadow: -5px 0 0 #0f0, -5px 0 0 #0f0;
-  transition-delay: 0s,0.5s,1s,1s;
-
-}
