@@ -29,10 +29,6 @@ font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 .disclaimer{
     display:none;
 }
-.container{
-   display:flex;
-}
-
 
 .container1{
   display:flex;
