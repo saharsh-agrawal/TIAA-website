@@ -2,6 +2,10 @@
 
 body {
   background: #f0f6ff;
+   background-image: url('img/fb2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   overflow-x:hidden;
