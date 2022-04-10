@@ -1,7 +1,7 @@
 function uncover()
 {
-    document.getElementById("cover-container").style.top = "-100%";
-    const myTimeout = setTimeout(displayNone, 1000);
+    document.getElementById("cover-container").style.opacity = "0";
+    const myTimeout = setTimeout(displayNone, 2500);
 }
 function displayNone()
 {
