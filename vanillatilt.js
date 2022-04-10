@@ -435,7 +435,7 @@ var VanillaTilt = (function () {
           max: 15,
           startX: 0,
           startY: 0,
-          perspective: 1000,
+          perspective: 10000,
           easing: "cubic-bezier(.03,.98,.52,.99)",
           scale: 1,
           speed: 300,
@@ -448,10 +448,10 @@ var VanillaTilt = (function () {
           "mouse-event-element": null,
           reset: true,
           gyroscope: true,
-          gyroscopeMinAngleX: -45,
-          gyroscopeMaxAngleX: 45,
-          gyroscopeMinAngleY: -45,
-          gyroscopeMaxAngleY: 45,
+          gyroscopeMinAngleX: -25,
+          gyroscopeMaxAngleX: 25,
+          gyroscopeMinAngleY: -25,
+          gyroscopeMaxAngleY: 25,
           gyroscopeSamples: 10
         };
     
