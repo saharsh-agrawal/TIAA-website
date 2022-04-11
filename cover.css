@@ -4,7 +4,7 @@
     overflow:hidden;
     position: fixed;
     top:0px;
-    transition:all 2000ms linear;
+    transition:all 1500ms linear;
 }
 .cover-container #bg{
     height:100%;
