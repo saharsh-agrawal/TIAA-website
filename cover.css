@@ -12,6 +12,7 @@
     left:0px;
 }
 .cover-container main{
+	width:100%;
 	left: 50%;
     top: 50%;
     position: absolute;
