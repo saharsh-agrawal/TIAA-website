@@ -54,4 +54,11 @@
                 0 0 160px #0f0;
   
   }
- 
+@media only screen and (max-width: 768px) {
+	.nav-link {
+		font-size: 12px;
+	}
+	.nav-pills {
+		padding-left: 0;
+	}
+}
