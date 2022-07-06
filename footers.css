@@ -1,25 +1,32 @@
 .b-example-divider {
   height: 3rem;
-  background-color: rgba(0, 0, 0, .1);
-  border: solid rgba(0, 0, 0, .15);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
 .bi {
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
   fill: currentColor;
 }
-.fa-facebook{
-	color:#1b74e4;
+.fa-facebook {
+  color: #1b74e4;
 }
-.fa-instagram{
-  color: #E4405F;
+.fa-instagram {
+  color: #e4405f;
 }
-.fa-youtube-play{
-  color:#FF0000;
+.fa-youtube-play {
+  color: #ff0000;
 }
-.fa-twitter{
-  color:#00acee;
+.fa-twitter {
+  color: #00acee;
 }
-
+i {
+  font-size: 24px !important;
+  transition: font-size 0.5s;
+}
+i:hover {
+  font-size: 26px !important;
+}
